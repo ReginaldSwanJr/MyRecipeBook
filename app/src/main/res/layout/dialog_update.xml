@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Description" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text"
+        android:hint="Enter Text"
+        android:padding="12dp"
+        android:lines="2"
+        android:gravity="top"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingredient_text"
+        android:hint="Enter Ingredients"
+        android:padding="12dp"
+        android:lines="4"
+        android:gravity="top"
+        android:background="@android:drawable/editbox_background"/>
+
+    TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Cooking Steps" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/step_text"
+        android:hint="Enter Steps"
+        android:padding="12dp"
+        android:lines="8"
+        android:gravity="top"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_update"
+        android:text="Update"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
